@@ -85,7 +85,7 @@ while True:
       if student["ID"] == remove:
         found = True
         students.remove(student)
-        print("Student removed")
+        print("Student removed successfully!")
         break
 
     if not found:
